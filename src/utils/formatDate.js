@@ -5,7 +5,7 @@
  * @return 已转换好的时间格式
  * 页面使用：
  *  1 引入：import formatDate from '../utils/formatDate.js'
- *  2 使用：storage.set('login', true)
+ *  2 使用：formatDate(new Date(), 'yyyyMMddhhmmss')
  */
 export default function formatDate (date, fmt) {
     if (/(y+)/.test(fmt)) {
