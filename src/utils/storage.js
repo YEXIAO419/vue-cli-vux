@@ -1,7 +1,7 @@
 /**
  * 页面使用：
  *  1 引入：import storage from '../utils/storage.js'
- *  2 使用：formatDate(new Date(), 'yyyyMMddhhmmss')
+ *  2 使用：storage.set('login', true)
  */
 class StorageFun {
   constructor () {
